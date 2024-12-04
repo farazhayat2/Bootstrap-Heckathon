@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap-Heckathon</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white shadow">
+        <div class="container-fluid ">
+            <img src="data:image/png;base64,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" class="ms-lg-5" width="70px" alt="">
+          <a class="navbar-brand text-primary-emphasis fw-bold ms-2 ms-lg-3" href="#">Zapare Technologies</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About us
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item " href="#">Overview</a></li>
+                  <br>
+                  <li><a class="dropdown-item" href="#">Our Values</a></li>
+                  <br>
+                  <li><a class="dropdown-item" href="#">Our Mission</a></li>
+                  <br>
+                  <li><a class="dropdown-item" href="#">Our Approach</a></li>
+                  <br>
+                  <li><a class="dropdown-item" href="#">Leadership Team</a></li>
+                  <br>
+                  <li><a class="dropdown-item" href="#">Awards</a></li>
+                  <br>
+                  <li><a class="dropdown-item" href="#">Enquiry</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Carrier</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container d-lg-flex mt-md-5">
+      <div class="image-container mt-lg-5">
+        <img src="https://cdn3.vectorstock.com/i/1000x1000/72/17/business-men-office-cartoon-characters-people-sit-vector-29947217.jpg" class="img-fluid ms-lg-3 mt-lg-5" width="500px" alt="">
+        
+    </div>
+    <div class="text mt-lg-5">
+    <h1 class="text-primary-emphasis ms-md-5 mt-lg-5 p-lg-5 fw-bold">Customized Solution <br>to meet the needs <br>of the changing market.</h1>
+    <p class="fw-bold text-primary-emphasis text-center">Revenue Cycle Management </p>
+</div>
+</div>
+<br><br><br><br><br>
+<div class="container d-lg-flex ">
+    <div class="text">
+    <h1 class="fw-bold text-primary-emphasis">We Are </h1>
+    <br><br>
+    <p>A highly specialized Management team with over 20 combined <br> years of experience in the Healthcare industry with proven <br> ability to optimally combine digital technology, skilled <br> resources and efficient business processes to implement <br> creative as well as proven market solutions to suit an ever- <br>evolving market. Our forte has been to successfully tailor our <br> solutions to support your needs whether it is in the space of <br> Consulting, Product Management or Service Delivery</p>
+    <br>
+    <p class="fw-bold text-primary-emphasis">About us</p>
+</div>
+<div class="image-container">
+    <img src="https://www.zaparetech.com/img/about-img.png" class="ms-lg-5 img-fluid" width="600px" alt="">
+</div>
+</div>
+<br><br><br><br><br>
+<div class="container d-lg-flex">
+<div class="image-container">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZb0JrMigE5zktGBPEO8GD8Z-bpo7hxyH_Qw&s" class="img-fluid" width="650px" alt="">
+</div>
+
+<div class="text ms-lg-5">
+    <h1 class="fw-bold text-primary-emphasis ms-lg-5 mt-lg-5">Services</h1>
+    <br><br>
+    <p>We offer customized digital services and scalable <br> operational strategies to prepare your <br> Organization ride through the waves of <br> uncertainty in the form of disruptive technology <br> and government regulations so you can deliver <br> accelerated and cost-effective services for your <br> consumers</p>
+    <br>
+    <p class="fw-bold text-primary-emphasis">Explore Services</p>
+</div>
+</div>
+<br><br><br><br><br><br><br><br>
+<div class="container">
+    <div class="text">
+    <h1 class="fw-bold text-primary-emphasis">Zapare <br>Advantages.</h1>
+</div>
+</div>
+</body>
+</html>
